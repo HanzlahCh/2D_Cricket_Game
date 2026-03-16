@@ -1,9 +1,3 @@
-// ============================================================
-//  Cricket Blaze — App.jsx
-//  CS-4032 Web Programming — Assignment #02
-//  Single-file React implementation
-// ============================================================
-
 import { useState, useEffect, useRef, useCallback } from "react";
 import "./App.css";
 
@@ -158,7 +152,7 @@ function PowerBar({ segments, sliderPos, onShoot, disabled }) {
             style={{ width: `${seg.prob * 100}%` }}
             title={`${seg.label}: ${(seg.prob * 100).toFixed(0)}%`}
           >
-            {seg.prob >= 0.06 ? seg.label : ""}
+            {seg.prob > 0 ? seg.label : ""}
           </div>
         ))}
       </div>
