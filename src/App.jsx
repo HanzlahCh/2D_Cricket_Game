@@ -502,9 +502,6 @@ export default function App() {
         <div className="game-title">
           Cricket <span>Blaze</span> 🏏
         </div>
-        <div style={{ fontSize: "0.7rem", color: "var(--muted)", fontFamily: "var(--font-display)", letterSpacing: "0.1em" }}>
-          CS-4032 • WEB PROGRAMMING
-        </div>
       </header>
 
       {/* ── Main Layout ── */}
