@@ -28,14 +28,11 @@ Tech stack (exact dependencies)
 - React 19 (react, react-dom)
 - Vite (dev server & build)
 - @vitejs/plugin-react (JSX + fast refresh)
-- Babel + `babel-plugin-react-compiler` used by the dev toolchain (present in devDependencies)
-- ESLint with React-related plugins (devDependencies)
 
 Developer scripts
 - `npm run dev` — start Vite dev server (HMR)
 - `npm run build` — produce a production bundle
 - `npm run preview` — serve the production bundle locally
-- `npm run lint` — run ESLint
 
 Notes for maintainers
 - The main gameplay logic lives in `src/App.jsx`. Look for constants at the top (`TOTAL_BALLS`, `TOTAL_WICKETS`, `BATTING_STYLES`) to change game difficulty or batting probabilities.
@@ -57,9 +54,3 @@ Optional improvements
 - Add unit tests for `resolveOutcome()` and game-state transitions.
 - Add persistence (localStorage) to save high scores.
 - Add mobile-specific touch controls for the slider.
-
-Credits
-- Game UI, logic, and assets implemented in this repository.
-
----
-This README was updated to accurately reflect the repository's implemented game and files.
