@@ -39,6 +39,9 @@ Notes for maintainers
 - The slider-based outcome resolution is handled by `resolveOutcome()`; modify `BATTING_STYLES` to tune probabilities.
 - UI and animations are CSS-driven in `src/App.css`. Fonts are loaded from Google Fonts in `index.html`.
 
+Use the url to play the game:
+	https://2dcricketgame.vercel.app/
+
 Run locally
 1. Install:
 
